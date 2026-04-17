@@ -38,22 +38,23 @@ It allows a user to:
 ```
 
 root/
-│
 ├── frontend/
-│   ├── src/
-│   │   ├── api/           # Axios client & API calls
-│   │   ├── hooks/         # Custom hooks (useAuth, usePayouts, useBalance)
-│   │   ├── components/    # UI components
-│   │   ├── pages/         # Login & Dashboard
-│   │   └── App.tsx
+│ ├── src/
+│ │ ├── api/ # Axios client & API calls
+│ │ ├── hooks/ # Custom hooks (useAuth, usePayouts, useBalance)
+│ │ ├── components/ # UI components
+│ │ ├── pages/ # Login & Dashboard pages
+│ │ ├── App.tsx
+│ │ └── main.tsx
 │
 ├── backend/
-│   ├── controller/
-│   ├── service/
-│   ├── repository/
-│   ├── entity/
-│   └── config/
-
+│ ├── controller/ # REST controllers
+│ ├── service/ # Business logic
+│ ├── repository/ # JPA repositories
+│ ├── entity/ # Database entities
+│ └── config/ # JWT & security config
+│
+└── README.md
 ```
 
 ---
